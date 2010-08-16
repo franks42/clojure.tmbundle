@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>if [ -f "$TM_PROJECT_DIRECTORY"/project.clj ]
+	then 
+		cd "$TM_PROJECT_DIRECTORY"
+		export prj=`basename "$TM_PROJECT_DIRECTORY"`
+		setname=`echo "set name to \"$prj\""`
+		cdcmd=`echo "write text \"cd $TM_PROJECT_DIRECTORY\""`
+		replcmd=`echo "write text \"cake repl\""`
+
+		osascript -e 'tell app "iTerm"' -e 'activate' -e 'set myterm to first terminal' -e 'tell myterm' -e 'launch session "Default"' -e 'set mysession to last session' -e 'tell mysession' -e "$setname"  -e "$cdcmd" -e "$replcmd" -e 'end tell' -e 'end tell' -e 'end tell'
+
+	else 
+		echo 'No "project.clj" found in TM-project directory...'
+fi
+
+
+
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>name</key>
+	<string>New REPL (iTerm)</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>uuid</key>
+	<string>3204286F-320F-4D15-A9BC-9F19D23EB143</string>
+</dict>
+</plist>

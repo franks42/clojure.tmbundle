@@ -4,6 +4,14 @@ A TextMate bundle providing syntax highlighting for Clojure.
 
 Based on a previous Clojure bundle by [`stephenroller`](http://github.com/stephenroller/clojure-tmbundle).
 
+Subsequently cloned from [`swannodette`](http://github.com/swannodette/textmate-clojure)
+
+I tried to add some of the commands that I developed for a Lein + nailgun/VIM-REPL setup, which never worked well enough to share, to a cake-based environment, which seems already useful enough for some "informal" hacking. 
+
+This cake environment (http://github.com/ninjudd/cake) is truly cool and includes the first lightweight REPL-client that has the potential to transform clojure into a premier scripting language for sysadmins... like a "elegant and readable Perl on steroids". Great work by Justin Balthrop et. al. David Nolan shows how we can actually script the commands/scripts in TextMate in clojure itself with the help from cake - that sure beats bash/python/ruby, and it allows you to use the namespace context of the project to resolve names, docs, code, etc. I have extended David Nolan's work trying to help to improve his clojure mode for textmate. All is still very raw and somewhat shaky, but the potential...
+
+---
+
 Install with:
 
     $ cd ~/Library/Application\ Support/TextMate/Bundles

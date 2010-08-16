@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>echo "Starting to run project's test ..."
+cake test | pre
+echo "Done."</string>
+	<key>input</key>
+	<string>none</string>
+	<key>name</key>
+	<string>cake test - Run project tests</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>uuid</key>
+	<string>1AB092BC-2AF0-4B82-A375-9E63DF17D872</string>
+</dict>
+</plist>
