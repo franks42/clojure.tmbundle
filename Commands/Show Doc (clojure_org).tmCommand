@@ -15,7 +15,7 @@ open http://richhickey.github.com/clojure/clojure.core-api.html#clojure.core/$TM
 	<key>keyEquivalent</key>
 	<string>~</string>
 	<key>name</key>
-	<string>Show Doc (clojure.org)</string>
+	<string>Doc (clojure.org)</string>
 	<key>output</key>
 	<string>discard</string>
 	<key>uuid</key>

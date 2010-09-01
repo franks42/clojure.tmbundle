@@ -13,7 +13,7 @@ echo "Done."</string>
 	<key>keyEquivalent</key>
 	<string>~@c</string>
 	<key>name</key>
-	<string>cake ps</string>
+	<string>cake ps - List running cake jvm processes for all projects</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>uuid</key>

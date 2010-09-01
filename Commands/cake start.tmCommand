@@ -5,15 +5,15 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>echo "Starting to bake cake within project context..."
-cake start | pre
-echo "Done."</string>
+	<string>echo "&lt;pre&gt;Starting to bake cake within project context..."
+cake start 2&gt;/dev/null
+echo "Done.&lt;/pre&gt;"</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
 	<string>~@c</string>
 	<key>name</key>
-	<string>cake start</string>
+	<string>cake start - Start cake jvm processes.</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>uuid</key>

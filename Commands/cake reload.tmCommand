@@ -14,7 +14,7 @@ echo "Done."
 	<key>keyEquivalent</key>
 	<string>~@c</string>
 	<key>name</key>
-	<string>cake reload</string>
+	<string>cake reload - Reload any .clj files that have changed or restart</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>uuid</key>

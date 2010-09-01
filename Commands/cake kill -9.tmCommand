@@ -14,7 +14,7 @@ echo "Done."
 	<key>keyEquivalent</key>
 	<string>~@c</string>
 	<key>name</key>
-	<string>cake kill -9</string>
+	<string>cake kill -9 - Force-kill running cake jvm processes.</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>uuid</key>

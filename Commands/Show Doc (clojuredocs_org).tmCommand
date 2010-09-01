@@ -16,7 +16,7 @@ open "http://clojuredocs.org/search?q=$TM_CURRENT_WORD"
 	<key>keyEquivalent</key>
 	<string>~</string>
 	<key>name</key>
-	<string>Show Doc (clojuredocs.org)</string>
+	<string>Doc (clojuredocs.org)</string>
 	<key>output</key>
 	<string>discard</string>
 	<key>uuid</key>

@@ -6,7 +6,7 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>echo "Restarting to bake cake within project context..."
-cake restart | pre
+cake restart 2&gt;/dev/null | pre
 echo "Done."
 </string>
 	<key>input</key>
@@ -14,7 +14,7 @@ echo "Done."
 	<key>keyEquivalent</key>
 	<string>~@c</string>
 	<key>name</key>
-	<string>cake restart</string>
+	<string>cake restart - Restart cake jvm processes</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>uuid</key>

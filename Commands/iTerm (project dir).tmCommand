@@ -19,7 +19,7 @@ osascript -e 'tell app "iTerm"' -e 'activate' -e 'set myterm to first terminal' 
 	<key>name</key>
 	<string>iTerm (project dir)</string>
 	<key>output</key>
-	<string>showAsHTML</string>
+	<string>discard</string>
 	<key>uuid</key>
 	<string>F7BEBBD8-EA62-486E-8BFD-39733AC6841D</string>
 </dict>

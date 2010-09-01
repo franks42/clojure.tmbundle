@@ -13,7 +13,7 @@
 	<key>keyEquivalent</key>
 	<string></string>
 	<key>name</key>
-	<string>Show Namespaces</string>
+	<string>Namespaces</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>uuid</key>

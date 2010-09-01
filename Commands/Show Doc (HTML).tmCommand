@@ -5,7 +5,7 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>cake eval "(doc $TM_CURRENT_WORD)" | pre</string>
+	<string>cake eval -q "(doc $TM_CURRENT_WORD)" | pre</string>
 	<key>fallbackInput</key>
 	<string>word</string>
 	<key>input</key>
@@ -13,7 +13,7 @@
 	<key>keyEquivalent</key>
 	<string>~</string>
 	<key>name</key>
-	<string>Show Doc (HTML)</string>
+	<string>Doc (HTML)</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>uuid</key>
