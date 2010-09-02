@@ -10,6 +10,8 @@ cake test | pre
 echo "Done."</string>
 	<key>input</key>
 	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>~@p</string>
 	<key>name</key>
 	<string>cake test - Run project tests</string>
 	<key>output</key>

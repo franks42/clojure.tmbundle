@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>Support/bin/eval.clj</string>
+	<string>Support/bin/show_source.clj</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -40,9 +40,23 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>13</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>7</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>Support/bin/show_source.clj</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>52</integer>
+				<key>line</key>
+				<integer>17</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -68,11 +82,12 @@
 	<array>
 		<string>README.md</string>
 		<string>Support/bin/eval.clj</string>
+		<string>Support/bin/show_source.clj</string>
 		<string>TODO.txt</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{5, 0}, {939, 983}}</string>
+	<string>{{276, 75}, {939, 983}}</string>
 </dict>
 </plist>

@@ -10,6 +10,8 @@ cake compile | pre
 echo "Done."</string>
 	<key>input</key>
 	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>~@p</string>
 	<key>name</key>
 	<string>cake compile - Compile all clojure and java source files.</string>
 	<key>output</key>

@@ -16,6 +16,8 @@
 	<string>Namespaces</string>
 	<key>output</key>
 	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.clojure</string>
 	<key>uuid</key>
 	<string>B7887C46-69FF-4AAE-8B10-DC9A93AF786E</string>
 </dict>

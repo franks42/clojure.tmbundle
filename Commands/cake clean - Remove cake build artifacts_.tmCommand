@@ -10,6 +10,8 @@ cake clean | pre
 echo "Done."</string>
 	<key>input</key>
 	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>~@p</string>
 	<key>name</key>
 	<string>cake clean - Remove cake build artifacts.</string>
 	<key>output</key>

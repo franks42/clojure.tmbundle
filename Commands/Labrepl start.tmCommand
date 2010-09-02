@@ -8,7 +8,7 @@
 	<string>if [ -d "$TM_PROJECTS_DIR/labrepl" ] 
 	then	
 	cd "$TM_PROJECTS_DIR/labrepl"
-	cake eval "(require 'labrepl)(labrepl/-main)"
+	cake eval -q "(require 'labrepl)(labrepl/-main)"
 
 	setname=`echo "set name to \"labrepl\""`
 	cdcmd=`echo "write text \"cd $TM_PROJECTS_DIR/labrepl\""`

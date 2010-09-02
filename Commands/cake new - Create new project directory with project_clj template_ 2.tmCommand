@@ -22,7 +22,7 @@
 				exit_discard
 		fi
 
-		echo 'running "lein new' " $res\"  in $TM_PROJECTS_DIR" | pre
+		echo 'running "cake new' " $res\"  in $TM_PROJECTS_DIR" | pre
 		cake new $res | pre
 		mate $res &amp;
 		echo 'finished "cake new"' | pre
@@ -38,10 +38,10 @@ fi
 	<key>keyEquivalent</key>
 	<string>~@p</string>
 	<key>name</key>
-	<string>lein new - Create new project directory with project.clj template.</string>
+	<string>cake new - Create new project directory with project.clj template.</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>uuid</key>
-	<string>33283476-F27B-420B-AFA1-A359BABD3C5E</string>
+	<string>084AEE33-23C1-427D-8428-FDA8AB79BC12</string>
 </dict>
 </plist>

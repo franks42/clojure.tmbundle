@@ -14,12 +14,12 @@ fi
 </string>
 	<key>input</key>
 	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>~@p</string>
 	<key>name</key>
 	<string>Edit project.clj</string>
 	<key>output</key>
 	<string>showAsTooltip</string>
-	<key>scope</key>
-	<string>source.clojure</string>
 	<key>uuid</key>
 	<string>AF51383D-1EA5-4B3B-B025-8B6F4EAFAF53</string>
 </dict>
