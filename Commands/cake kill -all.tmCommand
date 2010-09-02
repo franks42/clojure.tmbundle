@@ -6,7 +6,7 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>echo "Killing all cake/bake REPL JVM processes..."
-cake kill --all | pre
+cake kill all | pre
 echo "Done."
 </string>
 	<key>input</key>
