@@ -5,13 +5,13 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>cake eval "(println (pprint (sort (map str (all-ns)))))" | pre</string>
+	<string>cake eval -q "(dorun (map println (sort (map str (all-ns)))))" | pre</string>
 	<key>fallbackInput</key>
 	<string>word</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string></string>
+	<string>@~</string>
 	<key>name</key>
 	<string>Namespaces</string>
 	<key>output</key>

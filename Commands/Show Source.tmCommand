@@ -11,7 +11,7 @@
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
-	<string>~@S</string>
+	<string>~@s</string>
 	<key>name</key>
 	<string>Show Source</string>
 	<key>output</key>

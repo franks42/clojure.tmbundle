@@ -14,11 +14,13 @@ open "http://clojuredocs.org/search?q=$TM_CURRENT_WORD"
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>~</string>
+	<string>~@s</string>
 	<key>name</key>
 	<string>Doc (clojuredocs.org)</string>
 	<key>output</key>
 	<string>discard</string>
+	<key>scope</key>
+	<string>source.clojure</string>
 	<key>uuid</key>
 	<string>003AC502-CA59-41BF-B822-CF84AD57325A</string>
 </dict>

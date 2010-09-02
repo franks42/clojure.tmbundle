@@ -5,13 +5,13 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>cake eval -q "(doall (map print (sort (complete/completions \"de\" 'clojure.core))))"</string>
+	<string>cake eval -q "(dorun (map println (sort (complete/completions \"de\" 'clojure.core))))"</string>
 	<key>fallbackInput</key>
 	<string>word</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
-	<string>~</string>
+	<string>~@s</string>
 	<key>name</key>
 	<string>completions (HTML)</string>
 	<key>output</key>

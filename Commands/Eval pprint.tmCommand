@@ -11,7 +11,7 @@
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
-	<string>~@X</string>
+	<string>~@e</string>
 	<key>name</key>
 	<string>Eval pprint</string>
 	<key>output</key>

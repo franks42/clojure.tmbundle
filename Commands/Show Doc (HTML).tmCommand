@@ -11,11 +11,13 @@
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
-	<string>~</string>
+	<string>~@s</string>
 	<key>name</key>
 	<string>Doc (HTML)</string>
 	<key>output</key>
 	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.clojure</string>
 	<key>uuid</key>
 	<string>48957C38-82DC-4367-8762-B8A84EF4079A</string>
 </dict>

@@ -5,17 +5,19 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>cake eval "(doc $TM_CURRENT_WORD)"</string>
+	<string>cake eval -q "(doc $TM_CURRENT_WORD)"</string>
 	<key>fallbackInput</key>
 	<string>word</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
-	<string></string>
+	<string>~@s</string>
 	<key>name</key>
 	<string>Doc</string>
 	<key>output</key>
 	<string>showAsTooltip</string>
+	<key>scope</key>
+	<string>source.clojure</string>
 	<key>uuid</key>
 	<string>F9AAF93A-E53E-47C1-9B83-793A0A19B067</string>
 </dict>

@@ -11,7 +11,7 @@
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
-	<string>@M</string>
+	<string>~@e</string>
 	<key>name</key>
 	<string>Macroexpand</string>
 	<key>output</key>

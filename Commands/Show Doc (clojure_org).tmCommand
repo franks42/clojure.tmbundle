@@ -13,11 +13,13 @@ open http://richhickey.github.com/clojure/clojure.core-api.html#clojure.core/$TM
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>~</string>
+	<string>~@s</string>
 	<key>name</key>
 	<string>Doc (clojure.org)</string>
 	<key>output</key>
 	<string>discard</string>
+	<key>scope</key>
+	<string>source.clojure</string>
 	<key>uuid</key>
 	<string>0C9F2CB7-C8A6-45B8-9B48-D2828C3A2611</string>
 </dict>

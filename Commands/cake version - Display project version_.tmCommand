@@ -10,8 +10,6 @@ cake version | pre
 echo "Done."</string>
 	<key>input</key>
 	<string>none</string>
-	<key>keyEquivalent</key>
-	<string>~@c</string>
 	<key>name</key>
 	<string>cake version - Display project version.</string>
 	<key>output</key>
