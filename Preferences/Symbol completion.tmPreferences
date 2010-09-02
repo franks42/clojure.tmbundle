@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Symbol completion</string>
+	<key>scope</key>
+	<string>source.clojure</string>
+	<key>settings</key>
+	<dict>
+		<key>completionCommand</key>
+		<string>cd $TM_DIRECTORY; cake eval -q "(dorun (map println (sort (complete/completions \"$TM_CURRENT_WORD\" (quote clojure.core)))))"</string>
+		<key>disableDefaultCompletion</key>
+		<integer>0</integer>
+	</dict>
+	<key>uuid</key>
+	<string>92D9D124-BAE6-40AD-8CF4-49C2376C7AB2</string>
+</dict>
+</plist>
