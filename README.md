@@ -15,7 +15,7 @@ This cake environment (http://github.com/ninjudd/cake) is truly cool and include
 Install with:
 
     $ cd ~/Library/Application\ Support/TextMate/Bundles
-    $ git clone git://github.com/swannodette/textmate-clojure.git Clojure.tmbundle
+    $ git clone git://github.com/franks42/clojure.tmbundle.git
     $ osascript -e 'tell app "TextMate" to reload bundles'
 
 ## Cake Integration
