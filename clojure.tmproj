@@ -26,9 +26,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>24</integer>
+				<integer>62</integer>
 				<key>line</key>
-				<integer>6</integer>
+				<integer>17</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -43,6 +43,20 @@
 				<integer>13</integer>
 				<key>line</key>
 				<integer>7</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>Support/bin/show_doc.clj</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -81,6 +95,7 @@
 	<key>openDocuments</key>
 	<array>
 		<string>README.md</string>
+		<string>Support/bin/show_doc.clj</string>
 		<string>Support/bin/eval.clj</string>
 		<string>Support/bin/show_source.clj</string>
 		<string>TODO.txt</string>
@@ -88,6 +103,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{276, 75}, {939, 983}}</string>
+	<string>{{208, 45}, {939, 983}}</string>
 </dict>
 </plist>
