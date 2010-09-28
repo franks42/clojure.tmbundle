@@ -2,6 +2,23 @@
 
 A TextMate bundle providing syntax highlighting for Clojure.
 
+============================================================
+
+This project is on hold right now (Sep 28, 2010).
+
+Please use [`swannodette`](http://github.com/swannodette/textmate-clojure)
+
+Recently, David Nolen has put a lot of effort in his fork,
+which makes this project less needed.
+
+Excellent timing as I'm unable to put a lot of time in this right now... 
+
+Happy Clojure hacking, Frank.
+
+
+
+============================================================
+
 Based on a previous Clojure bundle by [`stephenroller`](http://github.com/stephenroller/clojure-tmbundle).
 
 Subsequently cloned from [`swannodette`](http://github.com/swannodette/textmate-clojure)
